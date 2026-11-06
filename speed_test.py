@@ -10,7 +10,7 @@ if st.button("Measure Speed"):
         test = speedtest.Speedtest()
         
     
-        download_speed = test.download() / (1024 * 1024)
+        download_speed = test.download() 
         upload_speed = test.upload() / (1024 * 1024)
         
     
